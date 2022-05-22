@@ -7,7 +7,10 @@
             <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGLKj3JHcof0w/company-logo_200_200/0/1589990867649?e=1660780800&v=beta&t=NV5YvAiR1spFGWoXyHLJdEPFO05b-bUVSYueiq3dvzs" class="rounded-circle">
         </div>
         <div class="col-9 pt-5">
-            <div><h1>{{ $user -> username }}</h1></div>
+            <div class="d-flex justify-content-between align-items-baseline">
+                <h1>{{ $user->username }}</h1>
+                <a href="#">Add New Post</a>
+            </div>
             <div class="d-flex">
                 <div class="pr-5"><strong>123</strong> posts</div>
                 <div class="pr-5"><strong>456</strong> followers</div>
